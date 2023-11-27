@@ -1,5 +1,5 @@
 import React from 'react';
-import TestSplitScreen from './pages/TestSplitScreen'
+import { SplitScreen } from '../components/layouts/screens/SplitScreen'
 
 //Interfaces
 interface LeftHandComponentProps {
@@ -28,12 +28,15 @@ const RightHandComponent: React.FC<RightHandComponentProps> = ({ message, weight
 
 //Effects
 
-function App() {
+function TestSplitScreen() {
   return (
-    <div className="App">
-      <TestSplitScreen />
-    </div>
+    <>
+      <SplitScreen left={LeftHandComponent} right={RightHandComponent} leftWeight={2} rightWeight={2}>
+        <LeftHandComponent name="2" />
+        <RightHandComponent message="3" />
+      </SplitScreen>
+    </>
   );
 }
 
-export default App;
+export default TestSplitScreen;
