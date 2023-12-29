@@ -1,0 +1,21 @@
+[33mcommit ebc38c14f107bcb022596018547fb992bdf046b8[m[33m ([m[1;36mHEAD -> [m[1;32mlist[m[33m, [m[1;31morigin/list[m[33m)[m
+Author: root <root@DESKTOP-5M0CV51>
+Date:   Mon Nov 27 15:00:15 2023 +0100
+
+    types: created person
+
+[33mcommit ade0f5bb4f34ea4c7e1a057f91d8f0e9b8406397[m
+Author: root <root@DESKTOP-5M0CV51>
+Date:   Mon Nov 27 14:21:04 2023 +0100
+
+    created new folders architecture
+    
+    list folder created
+
+[33mcommit 6bfc9baf1491ff3963cc2d98f971508434c9086a[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: louniddam <louniddam@gmail.com>
+Date:   Wed Nov 15 15:11:23 2023 +0100
+
+    feat:
+    
+    init repo

@@ -1,4 +1,4 @@
-import { PersonTypes } from "../../../../types/entities/person";
+import { PersonTypes } from "../../../../../types/entities/person";
 
 // Interfaces
 interface SmallPeopleListItemProps {
@@ -12,4 +12,4 @@ const SmallPeopleListItem: React.FC<SmallPeopleListItemProps> = ( { person } ) =
     )
 };
 
-export default SmallPeopleListItem
+export default SmallPeopleListItem;

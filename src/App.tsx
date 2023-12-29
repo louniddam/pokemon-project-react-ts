@@ -1,5 +1,7 @@
 import React from 'react';
 import TestSplitScreen from './pages/TestSplitScreen'
+import TestLists from './pages/TestLists';
+import InfosCard from './components/ui/Cards/InfoCard';
 
 //Interfaces
 interface LeftHandComponentProps {
@@ -31,7 +33,9 @@ const RightHandComponent: React.FC<RightHandComponentProps> = ({ message, weight
 function App() {
   return (
     <div className="App">
-      <TestSplitScreen />
+      {/* <TestSplitScreen /> */}
+      {/* <TestLists /> */}
+      <InfosCard />
     </div>
   );
 }
