@@ -10,7 +10,7 @@ const InfosCard: React.FC = () => {
   useEffect(() => {
     const fetchPokemonData = async () => {
       try {
-        const result = await fetchPokemonByName('luxray');
+        const result = await fetchPokemonByName('ho-oh');
         if (result) setPokemon(result);
         console.log(result);
       } catch (error) {
