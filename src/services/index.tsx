@@ -1,5 +1,7 @@
-import * as berryRequest from './berry';
+import {BerryRequests} from './berry';
+import {PokemonRequests} from './pokemon';
 
 export {
-    berryRequest
+    BerryRequests,
+    PokemonRequests
 }
