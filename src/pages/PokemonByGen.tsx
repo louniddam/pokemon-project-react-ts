@@ -8,4 +8,4 @@ const PokemonByGen = () => {
     );
 }
 
-export default PokemonByGen;
+export default PokemonByGen; 
