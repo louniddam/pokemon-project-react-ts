@@ -1,4 +1,6 @@
 import { PersonTypes } from "../../../../../types/entities/person";
+import React from "react";
+
 
 // Interfaces
 interface SmallPeopleListItemProps {
