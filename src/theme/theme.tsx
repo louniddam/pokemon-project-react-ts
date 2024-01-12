@@ -1,21 +1,20 @@
-const theme = {
+export const theme = {
     colors: {
-      primary: '#3498db',
-      secondary: '#2ecc71',
-      background: '#f5f5f5',
-      text: '#333',
+      primary: '#BF596C',
+      secondary: '#657EAC',
+      white: '#ffffff',
     },
     fonts: {
-      main: 'Arial, sans-serif',
-      heading: 'Helvetica, sans-serif',
+      main: 'Comic Neue',
     },
-    spacing: {
-      small: '8px',
-      medium: '16px',
-      large: '24px',
-    },
-    borderRadius: '4px',
   };
-  
-  export default theme;
-  
+
+  //Example
+/*
+const StyledComponent = styled.div`
+background-color: ${(props) => props.theme.colors.primary};
+color: ${(props) => props.theme.colors.secondary};
+font-family: ${(props) => props.theme.fonts.main};
+// ... autres styles
+`;
+*/

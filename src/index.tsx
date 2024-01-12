@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { APIProvider } from './context/apiContext';
-import { ThemeProvider } from 'styled-components';
-import theme from './theme/theme';
+import GlobalStyle from './theme/GlobalStyle'
+
 
 
 const root = ReactDOM.createRoot(
@@ -13,9 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <APIProvider>
-      <ThemeProvider theme={theme}>
         <App />
-      </ThemeProvider>
     </APIProvider>
   </React.StrictMode>
 );

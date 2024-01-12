@@ -1,3 +1,5 @@
+import React from "react";
+
 interface NumberedListProps {
     items: object[];
     resourceName: string;
